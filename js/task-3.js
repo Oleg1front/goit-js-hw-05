@@ -1,5 +1,4 @@
 const sortByDescendingFriendCount = (users) => {
-  // let friendsNumber = users.friends.length;
   return users.toSorted(
     (firstUser, secondUser) =>
       secondUser.friends.length - firstUser.friends.length
